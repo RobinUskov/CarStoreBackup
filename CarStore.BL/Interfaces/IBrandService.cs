@@ -9,12 +9,13 @@ namespace CarStore.BL.Interfaces
 {
     public interface IBrandService
     {
-        List<Brand> GetAll();
+        public List <Brand> GetAll();
 
-        Brand? GetById(int id);
+        public Brand? GetById(int id);
 
-        void Add(Brand author);
+        public void Add(Brand brand);
 
-        void Delete(int id);
+        public void Delete(int id);
+       
     }
 }

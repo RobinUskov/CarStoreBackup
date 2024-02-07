@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CarStore.DL.Repositories
 {
-    public class BrandRepository : IBrandRepository
+    public class BrandRepositories : IBrandRepository
     {
         public void AddBrand(Brand brand)
         {

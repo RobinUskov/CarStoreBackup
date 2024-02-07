@@ -11,15 +11,32 @@ namespace CarStore.BL.Service
 {
     public class CarService : ICarService
     {
-        private readonly ICarRepository _carRepository;
-        public CarService(ICarRepository carRepository)
+        private readonly ICarRepository _CarRepository;
+
+        public CarService(ICarRepository CarRepository)
         {
-            _carRepository = carRepository;
+            _CarRepository = CarRepository;
+        }
+        public List<Car> GetAll()
+        {
+            return _CarRepository.GetAllCars();
         }
 
-        public List<Car> GetAllCarsByBrand(int brandId)
+        public Car GetById(int id)
         {
-            return _carRepository.GetAllCarsByBrand(brandId);
+            if (id <= 0) return new Car();
+
+            return _CarRepository.GetCar(id);
+        }
+
+        public void Add(Car Car)
+        {
+            _CarRepository.AddCar(Car);
+        }
+
+        public void Remove(int id)
+        {
+            _CarRepository.DeleteCar(id);
         }
     }
 }

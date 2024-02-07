@@ -12,7 +12,14 @@ namespace CarStore.BL.Interfaces
 
     public interface ICarService
     {
-        List<Car> GetAllCarsByBrand(int brandId);
+        List<Car> GetAll();
+
+        Car? GetById(int id);
+
+        void Add(Car car);
+
+        void Remove(int id);
+
     }
 
 }

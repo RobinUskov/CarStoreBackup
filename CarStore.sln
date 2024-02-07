@@ -11,7 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStore.BL", "CarStore.BL\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStore.DL", "CarStore.DL\CarStore.DL.csproj", "{8C468F2E-7EEF-4A49-AC6F-4EA7617FD917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarStore.Tests", "CarStore.Tests\CarStore.Tests.csproj", "{336338B1-D4A0-4E09-8B4F-62A05438D30B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarStore.Tests", "CarStore.Tests\CarStore.Tests.csproj", "{336338B1-D4A0-4E09-8B4F-62A05438D30B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0353E2BC-16CA-4C8B-8F16-A4686E6B3845} = {0353E2BC-16CA-4C8B-8F16-A4686E6B3845}
+		{2D862634-2747-43E3-A408-7A9371AD1999} = {2D862634-2747-43E3-A408-7A9371AD1999}
+		{8C468F2E-7EEF-4A49-AC6F-4EA7617FD917} = {8C468F2E-7EEF-4A49-AC6F-4EA7617FD917}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

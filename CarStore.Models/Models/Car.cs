@@ -10,7 +10,7 @@ namespace CarStore.Models.Models
 {
     public int Id { get; set; }
 
-    public string Model { get; set; }
+    public string Model { get; set; } = string.Empty;
 
     public int BrandId { get; set; }
 

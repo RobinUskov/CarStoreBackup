@@ -62,6 +62,7 @@ namespace CarStore.Tests
                 Name = "Citroen C3",
                 Bio = "Bio 3"
             },
+
         };
         }
     }

@@ -1,0 +1,16 @@
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.AssemblyInfoInputs.cache
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.AssemblyInfo.cs
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.csproj.CoreCompileInputs.cache
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.sourcelink.json
+C:\Users\robin\source\repos\CarStore\CarStore.DL\bin\Debug\net6.0\CarStore.DL.deps.json
+C:\Users\robin\source\repos\CarStore\CarStore.DL\bin\Debug\net6.0\CarStore.DL.dll
+C:\Users\robin\source\repos\CarStore\CarStore.DL\bin\Debug\net6.0\CarStore.DL.pdb
+C:\Users\robin\source\repos\CarStore\CarStore.DL\bin\Debug\net6.0\CarStore.Models.dll
+C:\Users\robin\source\repos\CarStore\CarStore.DL\bin\Debug\net6.0\CarStore.Models.pdb
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.csproj.AssemblyReference.cache
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.csproj.CopyComplete
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.dll
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\refint\CarStore.DL.dll
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\CarStore.DL.pdb
+C:\Users\robin\source\repos\CarStore\CarStore.DL\obj\Debug\net6.0\ref\CarStore.DL.dll

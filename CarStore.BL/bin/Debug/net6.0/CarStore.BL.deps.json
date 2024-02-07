@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CarStore.BL/1.0.0": {
+        "dependencies": {
+          "CarStore.DL": "1.0.0",
+          "CarStore.Models": "1.0.0"
+        },
+        "runtime": {
+          "CarStore.BL.dll": {}
+        }
+      },
+      "CarStore.DL/1.0.0": {
+        "dependencies": {
+          "CarStore.Models": "1.0.0"
+        },
+        "runtime": {
+          "CarStore.DL.dll": {}
+        }
+      },
+      "CarStore.Models/1.0.0": {
+        "runtime": {
+          "CarStore.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CarStore.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarStore.DL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CarStore.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
